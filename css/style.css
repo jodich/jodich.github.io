@@ -1,0 +1,35 @@
+body {
+    background-color: #eeeeee;
+}
+
+a {
+    color: inherit !important;
+}
+
+.nav {
+    margin: 50px auto;
+}
+
+#title {
+    /* background-color: blue; */
+    width: fit-content;
+    margin: 0 auto;
+    padding: .8rem 1rem;
+}
+
+.nav-links {
+    /* background-color: blue; */
+    margin: 0 auto;
+    width: fit-content;
+    height: 50px;
+    text-align: center;
+}
+
+    .nav-links a {
+        padding: .3rem .6rem;
+        margin: 0 20px;
+    }
+
+    .nav-links a:hover {
+        background-color: red;
+    }
