@@ -8,7 +8,7 @@ $( document ).ready(function() {
         let project = projects[i];
 
         // thumbnail
-        let $projectThumbnail = $("<div></div>").addClass("col m12 l6 project-box");
+        let $projectThumbnail = $("<div></div>").addClass("col s12 m4 project-box");
         let $projectImg = $("<img>").attr('src', project.thumbnail).addClass("project-thumbnail");
         $projectThumbnail.append($projectImg);    
 
@@ -23,4 +23,5 @@ $( document ).ready(function() {
         
         $("#projects").append($projectThumbnail);
     }
+
 });
