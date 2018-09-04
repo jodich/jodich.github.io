@@ -1,6 +1,6 @@
 var canvas = document.getElementById("waves");
 var ctx = canvas.getContext("2d");
-var canvasWidth = (canvas.width = window.innerWidth);
+var canvasWidth = (canvas.width = window.innerWidth-15);
 var canvasHeight = (canvas.height = window.innerHeight+50);
 
 // need to draw all these
