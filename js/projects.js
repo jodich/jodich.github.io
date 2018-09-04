@@ -5,7 +5,7 @@ var projects = [
         title: "How Ah?",
         description: "Helping the Indecisive Make Decisions Together",
         tags: ["concept", "ux/ui", "branding", "advertising"],
-        src: 'http://howah.jodich.com/'
+        src: 'http://howah.herokuapp.com/'
     },
     {   
         web: false,
@@ -21,7 +21,7 @@ var projects = [
         title: "kmpng",
         description: "Bringing Neighbours Closer Through a Lending and Borrowing System",
         tags: ["concept", "ux/ui", "branding", "advertising"],
-        src: 'http://kmpng.jodich.com/'
+        src: 'http://kmpng.herokuapp.com/'
     },
     {
         web: true,
@@ -35,7 +35,7 @@ var projects = [
         web: false,
         thumbnail: "/media/1-thumbnail.jpg",
         title: "$1",
-        description: "Reflecting on Singapore's Rising Cost of Living. Singapore's $1 coin is used as a representation in the project",
+        description: "A publication reflecting on Singapore's Rising Cost of Living. Singapore's $1 coin is used as a representation in the project",
         tags: ["concept", "ux/ui", "branding", "advertising"],
         src: '/pages/one-dollar.html'
     }
