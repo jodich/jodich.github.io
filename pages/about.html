@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Oleo+Script" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/aos.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <title>jodich</title>
@@ -17,7 +20,7 @@
                 <a href="/"><div id="title">jodich</div></a>
                 <div class="nav-links valign-wrapper">
                     <a href="/pages/about.html">about</a>
-                    <a href="https://www.dropbox.com/s/08pn1oap70lsdvl/Jodi_Resume.pdf?dl=0" target="_blank">resume</a>
+                    <a href="/media/Jodi_Resume.pdf" target="_blank">resume</a>
                 </div>
             </div>
         </div>
@@ -25,19 +28,46 @@
             <div class="col s10 offset-s1 content">
 
                 <div id="content">
-                    <div class="row">
-                        <div class="col s7">
+                    <div class="row" id="about">
+                        <div class="col s12 m7">
                             <h4>
                                 Aspiring front-end web developer, equipped with design skills and a depth of understanding. Ready to research, craft and develop amazing ideas into captivating projects.
                             </h4>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col s3 offset-s9">
+                    <div class="row" id="skills">
+                        <div class="col m3 offset-m6" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="fas fa-drafting-compass"></div>
+                            DESIGN
+                            <ul>
+                                <li>Branding</li>
+                                <li>Advertising</li>
+                                <li>UX/UI</li>
+                                <li>Conceptualizing</li>
+                                <li></li>
+                            </ul>
+                            <ul>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe InDesign</li>
+                                <li>Adobe Experience Design</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="col m3" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="fas fa-code"></div>
+                            DEVELOPER
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Nodejs</li>
+                                <li>React</li>
+                                <li>Ruby on Rails</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -51,5 +81,10 @@
     <script type="text/javascript" src="../js/materialize.min.js"></script>
     <script type="text/javascript" src="../js/projects.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/canvas.js"></script>
+    <script type="text/javascript" src="../js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
