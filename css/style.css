@@ -97,7 +97,7 @@ a {
     -webkit-transition:all .6s ease-in-out;
     transition:all .6s ease-in-out;
     color: white;
-    padding: 50px 30px 30px 30px;
+    padding: 40px 30px 30px 30px;
 }
 
 .project-box:hover .project-overlay {
@@ -115,6 +115,25 @@ a {
 .project-overlay .description {
     color: #eeeeee;
     font-size: 14px;
+}
+
+.project-overlay .link {
+    /* color: # !important; */
+    font-size: 14px;
+    border: 3px solid #156566;
+    border-radius: 2rem;
+    display: block;
+    padding: .6rem 0;
+    width: 120px;
+    margin: 20px auto;
+}
+
+.project-overlay .link:hover {
+    background-color: #EEEEEE;
+    border: 3px solid #EEEEEE;
+    color: #146364 !important;
+    -webkit-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
 }
 
 
@@ -141,33 +160,33 @@ a {
     color: #eeeeee55 !important;
 }
 
-#contact .btn-flat-a {
+.btn-flat-a, .btn-flat-b {
     padding: 0px;
     font-size: 20px;
     width: 50px;
     height: 50px;
     line-height: 50px;
-    /* text-align: center; */
     text-decoration: none;
-    background-color: #DDDDDD;
+    background-color: #EEEEEE;
     display: inline-block;
-    margin: 0 20px;
+    margin: 10px 15px;
     /* border: 3px solid #CCCCCC; */
     border-radius: 50%;
-    color: #AAAAAA !important;
+    color: #000000 !important;
 }
 
-.btn-flat-a:hover {
+.btn-flat-a:hover, #contact-2 .btn-flat-b {
     animation: sawtooth 2.5s infinite linear;
-    background: linear-gradient(25deg, #CCCCCC 0.5em, transparent 0.5em) 0 0 / 0.8em 0.8em
-              , linear-gradient(-25deg, #CCCCCC 0.5em, transparent 0.5em) 0 0 / 0.8em 0.8em;
+    background: linear-gradient(25deg, rgba(31, 149, 151, 0.4) 0.5em, transparent 0.5em) 0 0 / 0.9em 0.9em
+              , linear-gradient(-25deg, rgba(31, 149, 151, 0.4) 0.5em, transparent 0.5em) 0 0 / 0.9em 0.9em;
     /* opacity: 0.7; */
-    color: #999999 !important;
+    background-color: rgba(31, 149, 151, 0.4) !important;
+    color: #000000 !important;
 }
   
 @keyframes sawtooth {
     100% {
-        background-position: 0.8em 0;
+        background-position: 0.9em 0;
     }
 }
 
@@ -181,16 +200,36 @@ a {
     left: 2px;
 }
 
-.fa-envelope {
-    position: relative;
-    left: 1px;
-}
-
 .fa-telegram-plane {
     position: relative;
     right: 1px;
 }
 
+.contact-info {
+    padding: 20px;
+    font-size: 14px;
+}
 
 
 
+#content {
+    margin: 100px auto 100px auto;
+}
+
+.details-description {
+    font-size: 16px;
+    text-align: left;
+}
+
+.details-description img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.details-description a {
+    border-bottom: 1px solid black;
+}
+
+.details-description a:hover {
+    border-bottom: 1px solid #1f9697;
+}

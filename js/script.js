@@ -15,6 +15,12 @@ $( document ).ready(function() {
         let $projectOverlay = $("<div></div>").addClass("project-overlay");
         let $projectTitle = $("<div></div>").addClass("title").text(project.title);
         let $projectDescription = $("<p></p>").addClass("description").text(project.description);
+        let $projectSrc = $("<a></a>").attr({
+            "href" : project.src,
+            "target": `${project.web ? "_blank" : ""}`
+        }).addClass("link draw meet").text('View More')
+        $projectDescription.append($projectSrc);
+
         $projectOverlay.append($projectTitle);
         $projectOverlay.append($projectDescription);
 
@@ -27,5 +33,12 @@ $( document ).ready(function() {
     $('.btn-flat').hover(
         (event) => $(event.currentTarget).toggleClass('active')
     )
+
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+        duration: 400
+      });
+            
 
 });
