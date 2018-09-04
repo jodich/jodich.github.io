@@ -6,9 +6,11 @@
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Oleo+Script" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-
+    
+    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
     <title>jodich</title>
 </head>
 <body>
@@ -22,20 +24,35 @@
                 </div>
             </div>
         </div>
-        <div class="outer">
-            <canvas id="waves"></canvas>
+        <canvas id="waves"></canvas>
+        <div class="row landing">
+            <div class="col s2 offset-s5 center">
+                <a href="#contact"><div class="btn-flat">Contact<br> &#8744; </div></a>
+            </div>
         </div>
         <div class="row">
             <div class="col s10 offset-s1 content">
-                <div class="row"><h6>Projects</h6>
+                <div class="row center">
+                    <h6>Projects</h6>
+                    <div class="row" id="projects"></div>
                 </div>
-                <div class="row" id="projects">
+                <div class="row center">
+                    <h6>Contact</h6>
+                    <div class="row" id="contact">
+                        <div class="col s12">
+                            <a href="https://www.linkedin.com/in/jodich/" class="btn-flat-a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/jodich" class="btn-flat-a" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.cargocollective.com/jodich" class="btn-flat-a" target="_blank"><i class="fas fa-bolt"></i></a>
+                            <a href="mailto:jodiich@gmail.com" class="btn-flat-a target="_blank"><i class="far fa-envelope""></i></a>
+                            <a href="https://telegram.me/jodich" class="btn-flat-a" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row footer">
             <div class="col s10 offset-s1 footer">
-                i design and code stuff
+                Designer & Web Developer
             </div>
         </div>
     </div>

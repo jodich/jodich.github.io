@@ -24,4 +24,8 @@ $( document ).ready(function() {
         $("#projects").append($projectThumbnail);
     }
 
+    $('.btn-flat').hover(
+        (event) => $(event.currentTarget).toggleClass('active')
+    )
+
 });

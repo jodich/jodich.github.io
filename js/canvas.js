@@ -1,7 +1,7 @@
 var canvas = document.getElementById("waves");
 var ctx = canvas.getContext("2d");
 var canvasWidth = (canvas.width = window.innerWidth);
-var canvasHeight = (canvas.height = window.innerHeight-100);
+var canvasHeight = (canvas.height = window.innerHeight+50);
 
 // need to draw all these
 var lines = [];
@@ -80,14 +80,15 @@ var initLine = (gap, startY, animationTime, maxHeight, last) => {
     lines.push(line);
 }
 // initLine = (gap, startY, animationTime, maxHeight, last)
-initLine(5, canvasHeight/2 * 1.7, 3, 100);
-initLine(6, canvasHeight/2 * 1.5, 5, 100);
+initLine(4, canvasHeight/2 * 1.7, 3, 100);
+initLine(4, canvasHeight/2 * 1.55, 3, 100);
 initLine(8, canvasHeight/2 * 1.3, 2, 100);
-initLine(2, canvasHeight/2 * 1.1, 6, 100);
-initLine(4, canvasHeight/2 * 0.9, 7, 100);
-initLine(6, canvasHeight/2 * 0.7, 5, 100);
-initLine(8, canvasHeight/2 * 0.5, 6, 100);
-initLine(6, canvasHeight/2 * 0.3, 8, 100);
+initLine(6, canvasHeight/2 * 1.15, 5, 100);
+initLine(2, canvasHeight/2 * 1.0, 6, 100);
+initLine(4, canvasHeight/2 * 0.85, 7, 100);
+initLine(6, canvasHeight/2 * 0.7, 8, 100);
+initLine(8, canvasHeight/2 * 0.55, 6, 100);
+initLine(6, canvasHeight/2 * 0.3, 5, 100);
 
 initLine(4, canvasHeight/2*1.9, 7, 40, 'last')
 
