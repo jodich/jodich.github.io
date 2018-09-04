@@ -24,7 +24,7 @@ $( document ).ready(function() {
         $projectOverlay.append($projectDescription);
         $projectThumbnail.append($projectOverlay);
 
-        $projectThumbnail.attr({'data-aos': 'flip-up', 'data-aos-delay': delay, 'data-aos-duration': 1000});
+        $projectThumbnail.attr({'data-aos': 'zoom-in', 'data-aos-delay': delay, 'data-aos-duration': 500});
         delay += 100;
         if (delay == 300) {
             delay = 0;
