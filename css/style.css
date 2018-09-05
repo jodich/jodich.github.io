@@ -123,8 +123,10 @@ a.anchor {
 }
 
 #skills .col {
-    padding: 0 0 0 80px;;
+    padding: 0 0 0 0px;
 }
+
+
 #skills .fas {
     font-size: 50px;
     display: block;
@@ -140,6 +142,8 @@ a.anchor {
     border-radius: 10px;
     font-size: 16px;
     margin-bottom: 30px;
+    max-height: 500px;
+
 }
 
 .skills h6 {

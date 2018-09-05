@@ -5,7 +5,7 @@ var projects = [
         title: "How Ah?",
         description: "Helping the Indecisive Make Decisions Together",
         tags: ["concept", "ux/ui", "branding", "advertising"],
-        src: 'http://howah.herokuapp.com/'
+        src: 'https://howah.herokuapp.com/'
     },
     {   
         web: false,
@@ -21,7 +21,7 @@ var projects = [
         title: "kmpng",
         description: "Bringing Neighbours Closer Through a Lending and Borrowing System",
         tags: ["concept", "ux/ui", "branding", "advertising"],
-        src: 'http://kmpng.herokuapp.com/'
+        src: 'https://kmpng.herokuapp.com/'
     },
     {
         web: true,
